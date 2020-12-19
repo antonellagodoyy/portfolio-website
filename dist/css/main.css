@@ -68,7 +68,7 @@ nav {
     background-color: #ffc31f; }
   nav i {
     color: #f4f4f4;
-    font-size: 30px; }
+    font-size: 26px; }
   nav input[type="checkbox"] {
     display: none; }
   nav label {
@@ -645,15 +645,16 @@ input[type="radio"] {
 
 @media (max-width: 600px) {
   nav {
-    padding: 0px 15px; }
+    padding: 0px 15px;
+    height: 8vh; }
     nav label {
       display: inline-block; }
     nav ul {
       position: fixed;
-      top: 10vh;
+      top: 8vh;
       right: 0;
       width: 80%;
-      height: 90vh;
+      height: 92vh;
       background-color: #363636;
       flex-direction: column;
       justify-content: center;
@@ -665,11 +666,13 @@ input[type="radio"] {
         font-size: 18px; }
     nav #menu:checked ~ ul {
       transform: translateX(0); }
-  header h1 {
-    font-size: 32px; }
-  header h3,
-  header p {
-    font-size: 16px; }
+  header {
+    height: 92vh; }
+    header h1 {
+      font-size: 32px; }
+    header h3,
+    header p {
+      font-size: 16px; }
   footer {
     height: 100%;
     padding: 20px 20px;

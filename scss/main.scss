@@ -93,7 +93,7 @@ nav {
 
   i {
     color: $light-color;
-    font-size: 30px;
+    font-size: 26px;
   }
 
   input[type="checkbox"] {
@@ -902,6 +902,7 @@ input[type="radio"] {
 @media (max-width: 600px) {
   nav {
     padding: 0px 15px;
+    height: 8vh;
 
     label {
       display: inline-block;
@@ -909,10 +910,10 @@ input[type="radio"] {
 
     ul {
       position: fixed;
-      top: 10vh;
+      top: 8vh;
       right: 0;
       width: 80%;
-      height: 100vh - 10vh;
+      height: 100vh - 8vh;
       background-color: lighten($color: $dark-color, $amount: 5);
       flex-direction: column;
       justify-content: center;
@@ -934,6 +935,7 @@ input[type="radio"] {
   }
 
   header {
+    height: 100vh - 8vh;
     h1 {
       font-size: 32px;
     }
