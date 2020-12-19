@@ -1,0 +1,34 @@
+@function set-text-color($bg-color) {
+  @if (lightness($bg-color) > 50) {
+    @return #333333;
+  } @else {
+    @return #f4f4f4;
+  }
+}
+
+@mixin nav-hover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin responsive-grid($width) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($width, 1fr));
+}
+
+@mixin card {
+  margin: 15px;
+  padding: 40px 20px;
+  @include flex-center;
+  text-align: center;
+  border-radius: 20px;
+}

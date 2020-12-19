@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/39c738d856.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>About me | John Doe</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+      </div>
+
+      <input type="checkbox" id="menu" />
+      <label for="menu"><i class="fas fa-ellipsis-v"></i></label>
+
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+          <div class="hover-link"></div>
+        </li>
+        <li class="current">
+          <a href="about.html">About</a>
+          <div class="hover-link"></div>
+        </li>
+        <li>
+          <a href="work.html">Work</a>
+          <div class="hover-link"></div>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+          <div class="hover-link"></div>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <div class="header">
+          <h3 class="header-title">About me</h3>
+          <div class="header-sub"></div>
+          <p class="header-p">
+            Let me tell you a little about myself and what I do.
+          </p>
+        </div>
+
+        <div class="about-container">
+          <div id="about-image">
+            <img src="img/about.jpg" alt="John Doe's picture" />
+          </div>
+
+          <div id="about-text">
+            <p>
+              Hi! ipsum dolor sit, amet consectetur adipisicing elit. Libero
+              quasi aperiam, aut quod quam laborum totam pariatur et veritatis
+              laboriosam, suscipit rerum nemo non! Esse natus dicta libero,
+              dolorum minus fugit iure itaque deserunt quis aut amet, sapiente
+              tempora fugiat aperiam, veritatis quas dignissimos eligendi!
+            </p>
+            <p id="last-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus consequatur libero impedit. Commodi nostrum accusamus
+              iste autem ullam voluptatibus minus saepe obcaecati quis aliquid.
+            </p>
+            <a href="#" class="btn-dark">Download my CV</a>
+          </div>
+        </div>
+
+        <div class="awards">
+          <div>
+            <i class="fas fa-medal"></i>
+            <h6>Award name</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <div>
+            <i class="fas fa-medal"></i>
+            <h6>Award name</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <div>
+            <i class="fas fa-medal"></i>
+            <h6>Award name</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="header">
+          <h3 class="header-title">Technical skills</h3>
+          <div class="header-sub"></div>
+          <p class="header-p">
+            The tools that I manage and the technical knowledge that I have
+          </p>
+        </div>
+
+        <div class="skills">
+          <div class="card">
+            <i class="fas fa-camera-retro"></i>
+            <h5>Photography</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+              nihil quisquam commodi.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fab fa-html5"></i>
+            <h5>HTML</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
+              voluptatem voluptatibus vel.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fab fa-css3-alt"></i>
+            <h5>CSS</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              temporibus nobis modi.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fab fa-wordpress"></i>
+            <h5>WordPress</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
+              cumque vel voluptatem!
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fab fa-magento"></i>
+            <h5>Magento</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+              molestias sunt blanditiis.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fab fa-figma"></i>
+            <h5>Figma</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+              aspernatur fugiat laudantium.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="header">
+          <h3 class="header-title">Testimonials</h3>
+          <div class="header-sub"></div>
+          <p class="header-p">Take a look at what my clients say about me</p>
+        </div>
+
+        <div id="container">
+          <input type="radio" name="person" id="client-1" checked />
+          <div class="label" id="label-1">
+            <label for="client-1">
+              <div class="client-data">
+                <div>
+                  <img src="img/testimonials/person1.jpg" alt="Client 1" />
+                </div>
+
+                <div>
+                  <h6>Sam Smith</h6>
+                  <p>New York, EE.UU</p>
+                </div>
+              </div>
+            </label>
+          </div>
+
+          <div class="client-text" id="client-text-1">
+            <h4>It was a great experience!</h4>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur inventore dolore nam placeat quisquam? Vel amet nobis
+              enim doloribus rem possimus nulla dolorum corporis deserunt
+              molestiae, et accusamus voluptatibus ab distinctio, consequatur
+              temporibus sit aperiam voluptas error ex nemo, officia nisi?
+              Perspiciatis officiis non vero.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus cumque mollitia dolor. Aut fuga eos saepe, aliquid
+              deleniti repellat quos facilis molestias ipsam itaque!
+            </p>
+          </div>
+
+          <input type="radio" name="person" id="client-2" />
+          <div class="label" id="label-2">
+            <label for="client-2">
+              <div class="client-data">
+                <div>
+                  <img src="img/testimonials/person2.jpg" alt="Client 1" />
+                </div>
+
+                <div>
+                  <h6>Sara Williams</h6>
+                  <p>Michigan, EE.UU</p>
+                </div>
+              </div>
+            </label>
+          </div>
+
+          <div class="client-text" id="client-text-2">
+            <h4>
+              Work delivered on time and excellent communication. I recommend!
+            </h4>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+              magni unde distinctio voluptatum, quaerat id nostrum cumque sunt
+              dignissimos? Quas hic quibusdam beatae soluta dolorem! Repellat
+              officiis quaerat tenetur itaque?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus cumque mollitia dolor. Aut fuga eos saepe, aliquid
+              deleniti repellat quos facilis molestias ipsam itaque!
+            </p>
+          </div>
+
+          <input type="radio" name="person" id="client-3" />
+          <div class="label" id="label-3">
+            <label for="client-3">
+              <div class="client-data">
+                <div>
+                  <img src="img/testimonials/person3.jpg" alt="Client 1" />
+                </div>
+
+                <div>
+                  <h6>Jill Johnson</h6>
+                  <p>Queenstown, New Zealand</p>
+                </div>
+              </div>
+            </label>
+          </div>
+
+          <div class="client-text" id="client-text-3">
+            <h4>
+              John's an excellent professional, very trustworthy! Amazing
+              experience
+            </h4>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              consequuntur laborum voluptatum sapiente tempora unde excepturi
+              rerum, officia quaerat cum corporis, quod mollitia voluptatem?
+              Eligendi earum officiis delectus, sint repellendus nihil, odit
+              accusantium provident iusto quidem sunt hic recusandae magnam!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus cumque mollitia dolor. Aut fuga eos saepe, aliquid
+              deleniti repellat quos facilis molestias ipsam itaque!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p>Copyright &#169; 2020. All Rights Reserved</p>
+      </div>
+
+      <div>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github-square"></i></a>
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-instagram-square"></i></a>
+      </div>
+    </footer>
+
+    <script src="js/typewriter.js"></script>
+  </body>
+</html>
